@@ -20,7 +20,7 @@ const Home = () => {
       .catch((error) => {
         setError('Error fetching data:', error);
       });
-      
+
   }, []);
 
   if (loading) {
