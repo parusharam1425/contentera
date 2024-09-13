@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1>Results of JSON data </h1>
+      
       <Home />
     </div>
   );
